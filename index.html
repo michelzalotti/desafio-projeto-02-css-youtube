@@ -4,8 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio Projeto CSS - Youtube FlexBox</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    
+    <header class="main-header">
+      <div class="nav-logo">
+        <a href="#"
+          ><img src="assets/images/menu-icon.svg" alt="" width="24"
+        /></a>
+        <div class="logo">
+          <img
+            src="assets/images/youtube-logo.png"
+            alt="Youtube Logo"
+            width="90"
+          />
+        </div>
+      </div>
+      <div class="search">
+        <input type="search" name="search" id="search" placeholder="" />
+      </div>
+      <ul class="profile">
+        <li>
+          <a href="#" target="_self">
+            <img src="assets/images/video-icon.svg" alt="" width="24"
+          /></a>
+        </li>
+        <li>
+          <a href="#" target="_self">
+            <img src="assets/images/bell-icon.png" alt="" width="24" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_self">
+            <img src="assets/images/profile.png" alt="" width="24" />
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <article>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/0IY5TJwAbcQ?si=aaGP8dLpVYNTBsFD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <header>
+          <h1>
+            Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo
+            Invertido com HTML e CSS
+          </h1>
+          <section>
+            <div class="channel">
+              <a href="#" target="_self">
+                <img
+                  src="assets/images/dio-logo.png"
+                  alt="Dio Logo"
+                  width="42"
+                />
+              </a>
+              <div class="channel-info">
+                <h2>Dio</h2>
+                <small>83,3 mil inscritos</small>
+              </div>
+            </div>
+            <a class="subscribe-button" href="#" target="_self">Inscreva-se</a>
+            <div class="video-info">
+              <span class="views">28.418 visualizações</span>
+              <span>Transmitido ao vivo em 23 ago. de 2022</span>
+            </div>
+          </section>
+          <ul class="controls">
+            <li>
+              <a class="like" href="#" target="_self">
+                <img src="assets/images/thumbs-up-icon.svg" />
+                <span>2 mil</span>
+              </a>
+            </li>
+            <li>
+              <a class="unlike" href="#" target="_self">
+                <img src="assets/images/thumbs-down-icon.svg" />
+                <span>Não gostei</span>
+              </a>
+            </li>
+            <li>
+              <a class="likes" href="#" target="_self">
+                <img src="assets/images/share-2-icon.svg" />
+                <span>Compartilhar</span>
+              </a>
+            </li>
+            <li>
+              <a class="likes" href="#" target="_self">
+                <img src="assets/images/download-icon.svg" />
+                <span>Download</span>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <section class="video-description">
+          Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+          Para isso, criaremos uma landing page com a temática da série Stranger
+          Things, a qual contará com a implementação de um theme switcher (light
+          e dark) para explorarmos os mistérios do mundo invertido.
+        </section>
+      </article>
+    </main>
+    <aside>
+      <ul>
+        <li>
+          <img src="assets/images/video.png" alt="" />
+          <div class="video-info">
+            <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+            <h3>DigitalInnovationOne</h3>
+            <span>2,1 mil visualizações Transmitido há 2 dias </span>
+          </div>
+        </li>
+      </ul>
+    </aside>
   </body>
 </html>
