@@ -1,6 +1,8 @@
 /*reset*/
 body {
   margin: 0;
+  background-color: #f8f8f8;
+  font-family: "Roboto";
 }
 
 ul {
@@ -17,4 +19,154 @@ img {
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.main-header,
+.nav-logo,
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  padding: 16px 24px;
+}
+
+.nav-logo {
+  gap: 32px;
+}
+
+.profile {
+  gap: 24px;
+}
+
+.search {
+  display: flex;
+}
+
+#search {
+  outline: none;
+  width: 330px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #f8f8f8;
+  padding: 5px 14px;
+}
+
+main {
+  display: flex;
+  gap: 25px;
+  padding: 15px 16px 0 75px;
+}
+
+.video-info {
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 16px 0;
+}
+
+.video-info section,
+.controls {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.video-info .channel {
+  display: flex;
+  gap: 12px;
+}
+.controls a {
+  display: flex;
+  gap: 8px;
+  color: #000;
+  font-weight: 500;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.subscribe-button {
+  padding: 12px 36px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: #c00;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.7;
+  border-radius: 2px;
+}
+
+.video-info {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.channel-info h2,
+.video h2 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.channel-info small {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #515151;
+}
+
+.video-description p {
+  color: #515151;
+  font-size: 0.875rem;
+  font-weight: 400;
+  max-width: 45%;
+}
+
+.related-videos {
+  flex: 1 0 356px;
+}
+
+.video {
+  display: flex;
+  gap: 16px;
+}
+
+.video + .video {
+  margin-top: 16px;
+}
+
+.related-videos h2 {
+  text-transform: none;
+}
+
+.related-videos h3,
+.related-videos span {
+  font-size: 0.75rem;
+  color: #515151;
+  font-weight: 400;
+  padding: 4px 0;
+}
+
+.related-videos span {
+  display: block;
+  padding: 0;
+  max-width: 20ch;
 }
